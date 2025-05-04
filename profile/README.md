@@ -11,7 +11,7 @@
 
 ## 🌟 Funcionalidade modulares
 
-<table> <tr> <td width="50%"> <h3 align="center">🔍 Visual Search</h3> <p align="center"> <img src="../img/camara.png" width="200"> </p> <p align="center">Upload photos or take them instantly to find similar clothes</p> </td> <td width="50%"> <h3 align="center">🎭 Virtual Try-On</h3> <p align="center"> <img src="../img/fashIA.png" width="200"> </p> <p align="center">Try on how clothes look on you before buying them</p> </td> </tr> <tr> <td width="50%"> <h3 align="center">🎤 Voice Search</h3> <p align="center"> <img src="../img/whisper2.png" width="200"> </p> <p align="center">Describe what you're looking for and we'll find it</p> </td> <td width="50%"> <h3 align="center">👗 Clothing Segmentation</h3> <p align="center"> <img src="../img/cloth-segmentation.png" width="200"> </p> <p align="center">Intelligent detection of garments in your photos</p> </td> </tr> </table>## 🚀 Project Architecture
+<table> <tr> <td width="50%"> <h3 align="center">🔍 Visual Search</h3> <p align="center"> <img src="../img/camara.png" width="200"> </p> <p align="center">Upload photos or take them instantly to find similar clothes</p> </td> <td width="50%"> <h3 align="center">🎭 Virtual Try-On</h3> <p align="center"> <img src="../img/fashIA.png" width="200"> </p> <p align="center">Try on how clothes look on you before buying them</p> </td> </tr> <tr> <td width="50%"> <h3 align="center">🎤 Voice Search</h3> <p align="center"> <img src="../img/whisper2.png" width="200"> </p> <p align="center">Describe what you're looking for and we'll find it</p> </td> <td width="50%"> <h3 align="center">👗 Clothing Segmentation</h3> <p align="center"> <img src="../img/cloth-segmentation.png" width="200"> </p> <p align="center">Intelligent detection of garments in your photos</p> </td> </tr> </table>
 
 ## 🚀 Proyect Architecture
 
@@ -135,7 +135,7 @@ cp .env.example .env
 2. Click on "Try-On"
 3. Visualize how the garment would look on you without needing to try it on physically!
 
-## 👥 Equipo
+## 👥 Team
 
 <div align="center">
   <table>
@@ -159,10 +159,15 @@ cp .env.example .env
   </table>
 </div>
 
-## 📝 Licencia
+## 📝 License
 
 This proyect is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
 
 [![HackUPC 2025](https://img.shields.io/badge/HackUPC-2025-blue)](https://hackupc.com)
 [![InditexTECH Challenge](https://img.shields.io/badge/InditexTECH-Challenge-orange)](https://inditex.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## PLAYGROUND
+
+Try our special feature, take photos or upload your own photos to the app and watch the magic happen!
+    <p align="center"> <img src="../img/PLAYGROUND.png" width="800"> </p> <p align="center">
