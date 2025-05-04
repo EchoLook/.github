@@ -180,23 +180,17 @@ TODO
     <tr>
       <td align="center">
         <a href="https://github.com/manuamest">
-          <img src="https://via.placeholder.com/100x100" width="100px;" alt="Developer 1"/>
-          <br />
-          <sub><b>José Manuel Amestoy</b></sub>
+          <sub>José Manuel Amestoy</sub>
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/alejandrobujan">
-          <img src="https://via.placeholder.com/100x100" width="100px;" alt="Developer 2"/>
-          <br />
-          <sub><b>Alejandro Buján</b></sub>
+          <sub>Alejandro Buján</sub>
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/sergio-legazpi">
-          <img src="https://via.placeholder.com/100x100" width="100px;" alt="Developer 3"/>
-          <br />
-          <sub><b>Sergio Gollanes</b></sub>
+          <sub>Sergio Gollanes</sub>
         </a>
       </td>
     </tr>
