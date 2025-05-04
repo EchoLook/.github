@@ -27,14 +27,14 @@
     <td width="50%">
       <h3 align="center">🔍 Búsqueda Visual</h3>
       <p align="center">
-        <img src="img/cloth-segmentation.png" width="200">
+        <img src="../img/cloth-segmentation.png" width="200">
       </p>
       <p align="center">Sube fotos o tómalas al instante para encontrar ropa similar</p>
     </td>
     <td width="50%">
       <h3 align="center">🎭 Prueba Virtual</h3>
       <p align="center">
-        <img src="img/fashIA.png" width="200">
+        <img src="../img/fashIA.png" width="200">
       </p>
       <p align="center">Prueba cómo te queda la ropa antes de comprarla</p>
     </td>
@@ -43,14 +43,14 @@
     <td width="50%">
       <h3 align="center">🎤 Búsqueda por Voz</h3>
       <p align="center">
-        <img src="img/whisper2.png" width="200">
+        <img src="../img/whisper2.png" width="200">
       </p>
       <p align="center">Describe lo que buscas y nosotros lo encontramos</p>
     </td>
     <td width="50%">
       <h3 align="center">👗 Segmentación de Ropa</h3>
       <p align="center">
-        <img src="img/cloth-segmentation.png" width="200">
+        <img src="../img/cloth-segmentation.png" width="200">
       </p>
       <p align="center">Detección inteligente de prendas en tus fotos</p>
     </td>
