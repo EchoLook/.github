@@ -1,99 +1,61 @@
 <div align="center">
 
-
 ![Demo de FashionFinder](../img/ECHOLOOKLOGO.png)
 
-
-**Encuentra, prueba y compra ropa con inteligencia artificial**
-</div>
+**Find, try on, and buy clothes with artificial intelligence**
 
 ## Demo
-
-<div align="center">
 
 
 </div>
 
 ## 🌟 Funcionalidade modulares
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🔍 Búsqueda Visual</h3>
-      <p align="center">
-        <img src="../img/camara.png" width="200">
-      </p>
-      <p align="center">Sube fotos o tómalas al instante para encontrar ropa similar</p>
-    </td>
-    <td width="50%">
-      <h3 align="center">🎭 Prueba Virtual</h3>
-      <p align="center">
-        <img src="../img/fashIA.png" width="200">
-      </p>
-      <p align="center">Prueba cómo te queda la ropa antes de comprarla</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🎤 Búsqueda por Voz</h3>
-      <p align="center">
-        <img src="../img/whisper2.png" width="200">
-      </p>
-      <p align="center">Describe lo que buscas y nosotros lo encontramos</p>
-    </td>
-    <td width="50%">
-      <h3 align="center">👗 Segmentación de Ropa</h3>
-      <p align="center">
-        <img src="../img/cloth-segmentation.png" width="200">
-      </p>
-      <p align="center">Detección inteligente de prendas en tus fotos</p>
-    </td>
-  </tr>
-</table>
+<table> <tr> <td width="50%"> <h3 align="center">🔍 Visual Search</h3> <p align="center"> <img src="../img/camara.png" width="200"> </p> <p align="center">Upload photos or take them instantly to find similar clothes</p> </td> <td width="50%"> <h3 align="center">🎭 Virtual Try-On</h3> <p align="center"> <img src="../img/fashIA.png" width="200"> </p> <p align="center">Try on how clothes look on you before buying them</p> </td> </tr> <tr> <td width="50%"> <h3 align="center">🎤 Voice Search</h3> <p align="center"> <img src="../img/whisper2.png" width="200"> </p> <p align="center">Describe what you're looking for and we'll find it</p> </td> <td width="50%"> <h3 align="center">👗 Clothing Segmentation</h3> <p align="center"> <img src="../img/cloth-segmentation.png" width="200"> </p> <p align="center">Intelligent detection of garments in your photos</p> </td> </tr> </table>## 🚀 Project Architecture
 
-## 🚀 Arquitectura del Proyecto
+## 🚀 Proyect Architecture
 
 ```mermaid
 graph TD
-    A[Usuario] -->|Sube foto/audio| B[Web]
-    B -->|Imagen| C[Cloth Segmentation Mini]
+    A[User]-->|Uploads photo/audio| B[Web]
+    B -->|Image| C[Cloth Segmentation Mini]
     B -->|Audio| D[Whisper-Query-Parser]
-    C -->|Segmentación| E[Inditex Visual Search API]
-    D -->|Consulta estructurada| F[Inditex Product Search API]
-    E -->|Prendas similares| B
-    F -->|Resultados de búsqueda| B
-    B -->|Imagen + Prenda| G[Virtual Try-On API]
-    G -->|Imagen generada| B
-    B -->|Muestra resultados| A
+    C -->|Segmentation| E[Inditex Visual Search API]
+    D -->|Structured query| F[Inditex Product Search API]
+    E -->|Similar garments| B
+    F -->|Search results| B
+    B -->|Image + Garment| G[Virtual Try-On API]
+    G -->|Generated image| B
+    B -->|Shows results| A
 ```
 
-## 🛠️ Componentes Técnicos
+## 🛠️ Technical Components
 
 ### 1. Cloth Segmentation Mini
 
-Módulo de segmentación de ropa que utiliza un modelo U2NET para identificar y clasificar prendas en:
+Clothing segmentation module that uses a U2NET model to identify and classify garments into:
 
-- 🔴 Ropa superior (clase 1)
-- 🟢 Ropa inferior (clase 2)
-- 🔵 Ropa completa (clase 3)
+* 🔴 Upper clothing (class 1)
+* 🟢 Lower clothing (class 2)
+* 🔵 Full body clothing (class 3)
 
 ### 2. Whisper-Query-Parser
 
-Convierte comandos de voz en consultas estructuradas:
+Converts voice commands into structured queries:
 
-- 🎙️ Transcripción de audio a texto (OpenAI Whisper)
-- 🧠 Generación de consultas estructuradas (Google Gemini)
-- 🖼️ Contextualización con imágenes
+* 🎙️ Audio to text transcription (OpenAI Whisper)
+* 🧠 Generation of structured queries (Google Gemini)
+* 🖼️ Contextualization with images
 
 ### 3. Virtual Try-On
 
-Permite probar virtualmente las prendas:
+Allows virtual garment try-on:
 
-- 📱 Interfaz Streamlit sencilla
-- 🎯 Visualización realista
-- ⚡ Procesamiento rápido con Fashn.ai API
+* 📱 Simple Streamlit interface
+* 🎯 Realistic visualization
+* ⚡ Fast processing with Fashn.ai API
 
-## 💻 Tecnologías Utilizadas
+## 💻 Technologies Used
 
 <div align="center">
 
@@ -107,12 +69,12 @@ Permite probar virtualmente las prendas:
 
 </div>
 
-## 🏗️ Instalación y Uso
+## 🏗️ Installation adn Usage
 
-### Requisitos Previos
+### Prerequisites
 
 ```bash
-# Instala FFmpeg para el procesamiento de audio
+# Install FFmpeg for audio processing
 # Ubuntu/Debian
 sudo apt-get install ffmpeg
 
@@ -120,25 +82,25 @@ sudo apt-get install ffmpeg
 brew install ffmpeg
 
 # Windows
-# Descarga desde https://ffmpeg.org/download.html
+# Download from https://ffmpeg.org/download.html
 ```
 
-### Configuración del Proyecto
+### Proyect Setup
 
-1. **Clonar el repositorio**
+1. **Clone repositorie**
 
 ```bash
 git clone https://github.com/tu-usuario/fashionfinder.git
 cd fashionfinder
 ```
 
-2. **Instalar dependencias**
+2. **Install dependencies**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Configurar variables de entorno**
+3. **Config env**
 
 ```bash
 cp .env.example .env
@@ -147,40 +109,32 @@ cp .env.example .env
 # - FASHN_API_KEY para el try-on virtual
 ```
 
-4. **Iniciar los servicios**
+4. **Start services**
 
-- Seguir las guias de los respectivos README
+* Follow the guides in the respective READMEs
 
-5. **Accede a la aplicación**
+  TODO: COMO CORRER WEB
 
-- Abre tu navegador web y ve a `http://localhost:8501`
+## 📱 Using the Application
 
-## 📱 Uso de la Aplicación
+### Visual Search
 
-### Búsqueda Visual
+1. Upload a photo or take one with the camera
+2. The image will be automatically segmented
+3. Click on any detected garment to see similar options
+4. Add to favorites or virtually try on the found garments
 
-1. Sube una foto o toma una con la cámara
-2. La imagen se segmentará automáticamente
-3. Haz clic en cualquier prenda detectada para ver opciones similares
-4. Añade a favoritos o prueba virtualmente las prendas encontradas
+### Voice Search
 
-### Búsqueda por Voz
+1. Click on the microphone button
+2. Describe the garment you're looking for (e.g., "I want a blue short-sleeve t-shirt")
+3. The system will translate your request and show relevant results
 
-1. Haz clic en el botón del micrófono
-2. Describe la prenda que buscas (ej. "Quiero una camiseta azul de manga corta")
-3. El sistema traducirá tu petición y mostrará resultados relevantes
+### Virtual Try-On
 
-### Prueba Virtual
-
-1. Selecciona una imagen tuya y una prenda
-2. Haz clic en "Generar Try-On"
-3. ¡Visualiza cómo te quedaría la prenda sin necesidad de probártela físicamente!
-
-## 🧠 Estructura del Proyecto
-
-```
-TODO
-```
+1. Select an image of yourself and a garment
+2. Click on "Generate Try-On"
+3. Visualize how the garment would look on you without needing to try it on physically!
 
 ## 👥 Equipo
 
@@ -208,7 +162,7 @@ TODO
 
 ## 📝 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+This proyect is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
 
 [![HackUPC 2025](https://img.shields.io/badge/HackUPC-2025-blue)](https://hackupc.com)
 [![InditexTECH Challenge](https://img.shields.io/badge/InditexTECH-Challenge-orange)](https://inditex.com)
