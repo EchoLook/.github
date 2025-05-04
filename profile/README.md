@@ -9,9 +9,14 @@
 
 </div>
 
-## 🌟 Funcionalidade modulares
-
+## 🌟 Modular funtionalities
+<div align="center">
 <table> <tr> <td width="50%"> <h3 align="center">🔍 Visual Search</h3> <p align="center"> <img src="../img/camara.png" width="200"> </p> <p align="center">Upload photos or take them instantly to find similar clothes</p> </td> <td width="50%"> <h3 align="center">🎭 Virtual Try-On</h3> <p align="center"> <img src="../img/fashIA.png" width="200"> </p> <p align="center">Try on how clothes look on you before buying them</p> </td> </tr> <tr> <td width="50%"> <h3 align="center">🎤 Voice Search</h3> <p align="center"> <img src="../img/whisper2.png" width="200"> </p> <p align="center">Describe what you're looking for and we'll find it</p> </td> <td width="50%"> <h3 align="center">👗 Clothing Segmentation</h3> <p align="center"> <img src="../img/cloth-segmentation.png" width="200"> </p> <p align="center">Intelligent detection of garments in your photos</p> </td> </tr> </table>
+</div>
+
+## fashIA examples
+
+<p align="center"> <img src="../img/examples.png" width="500"> </p>
 
 ## 🚀 Proyect Architecture
 
