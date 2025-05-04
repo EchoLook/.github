@@ -14,7 +14,7 @@
 
 <div align="center">
 
-![Demo de FashionFinder](https://via.placeholder.com/800x400?text=FashionFinder+Demo)
+![Demo de FashionFinder](../img/ECHOLOOKLOGO.png)
 
 </div>
 
