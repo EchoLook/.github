@@ -1,20 +1,16 @@
-# 👕 ECHOLOOK 👖
-
 <div align="center">
 
-**Encuentra, prueba y compra ropa con inteligencia artificial**
-
-[![HackUPC 2025](https://img.shields.io/badge/HackUPC-2025-blue)](https://hackupc.com)
-[![InditexTECH Challenge](https://img.shields.io/badge/InditexTECH-Challenge-orange)](https://inditex.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-</div>
-
-## 📸 Demo
-
-<div align="center">
 
 ![Demo de FashionFinder](../img/ECHOLOOKLOGO.png)
+
+
+**Encuentra, prueba y compra ropa con inteligencia artificial**
+</div>
+
+## Demo
+
+<div align="center">
+
 
 </div>
 
@@ -213,3 +209,7 @@ TODO
 ## 📝 Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+[![HackUPC 2025](https://img.shields.io/badge/HackUPC-2025-blue)](https://hackupc.com)
+[![InditexTECH Challenge](https://img.shields.io/badge/InditexTECH-Challenge-orange)](https://inditex.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
