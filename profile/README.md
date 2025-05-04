@@ -115,14 +115,13 @@ cp .env.example .env
 
   TODO: COMO CORRER WEB
 
-## 📱 Using the Application
+## 📱 Using the web in phone
 
 ### Visual Search
 
 1. Upload a photo or take one with the camera
 2. The image will be automatically segmented
 3. Click on any detected garment to see similar options
-4. Add to favorites or virtually try on the found garments
 
 ### Voice Search
 
@@ -133,7 +132,7 @@ cp .env.example .env
 ### Virtual Try-On
 
 1. Select an image of yourself and a garment
-2. Click on "Generate Try-On"
+2. Click on "Try-On"
 3. Visualize how the garment would look on you without needing to try it on physically!
 
 ## 👥 Equipo
