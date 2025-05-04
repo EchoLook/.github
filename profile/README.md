@@ -1,8 +1,6 @@
-# 👕 FashionFinder 👖
+# 👕 ECHOLOOK 👖
 
 <div align="center">
-
-![FashionFinder Logo](https://img.shields.io/badge/Fashion-Finder-ff69b4?style=for-the-badge&logo=appveyor)
 
 **Encuentra, prueba y compra ropa con inteligencia artificial**
 
@@ -20,14 +18,14 @@
 
 </div>
 
-## 🌟 Características
+## 🌟 Funcionalidade modulares
 
 <table>
   <tr>
     <td width="50%">
       <h3 align="center">🔍 Búsqueda Visual</h3>
       <p align="center">
-        <img src="../img/cloth-segmentation.png" width="200">
+        <img src="../img/camara.png" width="200">
       </p>
       <p align="center">Sube fotos o tómalas al instante para encontrar ropa similar</p>
     </td>
