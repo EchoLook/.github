@@ -4,9 +4,6 @@
 
 **Find, try on, and buy clothes with artificial intelligence**
 
-## Demo
-
-
 </div>
 
 ## 🌟 Modular funtionalities
